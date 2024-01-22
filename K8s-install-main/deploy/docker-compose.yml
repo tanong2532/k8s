@@ -1,0 +1,17 @@
+version: "3"
+services:
+  angular:
+    image: somkiat/demo-angular:1.0
+    build:
+      context: ./demo-angular
+      dockerfile: Dockerfile
+    ports:
+      - 8888:80
+  
+  api:
+    image: somkiat/demo-dotnet:1.0
+    build:
+      context: ./demo-dotnet
+      dockerfile: Dockerfile
+    # ports:
+    #   - 8080:8080
