@@ -1,5 +1,5 @@
 ## Step การติดตั้ง Kubernetes cluster (2 Master nodes, 2 external etcd, 2 Worker nodes)
-![kubeadm-ha-topology-stacked-etcd](/images/kubeadm-ha-topology-stacked-etcd.svg)
+![kubeadm-ha-topology-stacked-etcd]([/images/kubeadm-ha-topology-stacked-etcd.svg](https://github.com/tanong2532/k8s/blob/main/my-k8s-main/my-k8s-main/images/kubeadm-ha-topology-stacked-etcd.svg))
 ---
 ![kubeadm-ha-topology-external-etcd](/images/kubeadm-ha-topology-external-etcd.svg)
 ---
